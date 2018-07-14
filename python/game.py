@@ -33,8 +33,11 @@ while True:
             c = int(input('введите число :'))
             if(a == c):
                 print('CORRECT')
+                time.sleep(3)
             else:
                 print('INCORRECT')
+                print(a)
+                time.sleep(3)
     elif operation == '2':
             a = random.randint(100000, 999999)
             print('1 num =', int((a%1000000)/100000))
@@ -58,8 +61,11 @@ while True:
             c = int(input('введите число :'))
             if(a == c):
                 print('CORRECT')
+                time.sleep(3)
             else:
                 print('INCORRECT')
+                print(a)
+                time.sleep(3)
     elif operation == '3':
             a = random.randint(1000000, 9999999)
             print('1 num =', int((a%10000000)/1000000))
@@ -86,8 +92,11 @@ while True:
             c = int(input('введите число :'))
             if(a == c):
                 print('CORRECT')
+                time.sleep(3)
             else:
                 print('INCORRECT')
+                print(a)
+                time.sleep(3)
     elif operation == '4':
             a = random.randint(10000000, 99999999)
             print('1 num =', int((a%100000000)/10000000))
@@ -117,6 +126,10 @@ while True:
             c = int(input('введите число :'))
             if(a == c):
                 print('CORRECT')
+                time.sleep(3)
             else:
                 print('INCORRECT')
+                print(a)
+                time.sleep(3)
+
 
