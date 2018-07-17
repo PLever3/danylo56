@@ -6,14 +6,15 @@ def cls():
 while True:
     cls()
     print(' Menu ',
-                '\n1 - пятизначные ',
-                '\n2 - шестизначные ',
-                '\n3 - семизначные',
-                '\n4 - восьмизначные',
+                '\n5 - пятизначные ',
+                '\n6 - шестизначные',
+                '\n7 - семизначные',
+                '\n8 - восьмизначные',
                   )
     operation = input('Choose youroperation: ')
     print (operation)
-    if operation == '1' :
+    if operation == '5' :
+            cls()
             a = random.randint(10000, 99999)
             print('1 num =', int((a%100000)/10000))
             time.sleep(2)
@@ -38,7 +39,8 @@ while True:
                 print('INCORRECT')
                 print(a)
                 time.sleep(3)
-    elif operation == '2':
+    elif operation == '6':
+            cls()
             a = random.randint(100000, 999999)
             print('1 num =', int((a%1000000)/100000))
             time.sleep(2)
@@ -54,7 +56,7 @@ while True:
             cls()
             print('5 num =', int((a%100)/10))
             time.sleep(2)
-            clS()
+            cls()
             print('6 num =', int((a%10)))
             time.sleep(2)
             cls()
@@ -66,7 +68,8 @@ while True:
                 print('INCORRECT')
                 print(a)
                 time.sleep(3)
-    elif operation == '3':
+    elif operation == '7':
+            cls()
             a = random.randint(1000000, 9999999)
             print('1 num =', int((a%10000000)/1000000))
             time.sleep(2)
@@ -97,7 +100,8 @@ while True:
                 print('INCORRECT')
                 print(a)
                 time.sleep(3)
-    elif operation == '4':
+    elif operation == '8':
+            cls()
             a = random.randint(10000000, 99999999)
             print('1 num =', int((a%100000000)/10000000))
             time.sleep(2)
@@ -131,5 +135,8 @@ while True:
                 print('INCORRECT')
                 print(a)
                 time.sleep(3)
+    else:
+        print('operation is not defined')
+        time.sleep(3)
 
 
